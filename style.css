@@ -10,7 +10,7 @@ html, body{
     height: 100%;
 }
 body{
-    background: #162336 ;
+    background: #1c437e ;
     color: #8d96a7;
     font-family: 'Roboto Condensed',Arial, Helvetica, sans-serif;
     font-size: 0.96rem;
@@ -32,6 +32,9 @@ header{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: absolute;
+    z-index: 3;
+    width: calc(100% - 14px);
 }
 
 .logo{
@@ -98,6 +101,205 @@ nav ul li:nth-last-child(1){
     margin: 0 15px;
     flex-direction: column;
 }
-.title h1{
+h1{
+    font-family: 'Anton','Roboto Condensed';
+    color: white;
+    font-size: 5rem;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.titlebuttons{
+    display: flex;
+
+}
+
+.button1{
+    font-size: 'Anton','Roboto Condensed';
+    text-decoration: none;
+    background: #000 ;
+    color: #fff;
+    border: #000 solid 2px;
+    padding: 5px 24px;
+    margin: 4px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.button2{
+    font-size: 'Anton','Roboto Condensed';
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 2px;
+    padding: 5px 24px;
+    margin: 4px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.gradient{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1c437e+0,1c437e+100&0+0,1+90 */
+    background: linear-gradient(to bottom,  rgba(28,67,126,0) 0%,rgba(28,67,126,1) 90%,rgba(28,67,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     
+    display: block;
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+h2{
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+section{
+    margin: 0 15px 30px 15px;
+    clear: both;
+    padding-top: 30px;
+}
+
+.imagem01{
+    float: left;
+    margin-right: 13px;
+    width: 43%;
+}
+
+article p{
+    color: #fff;
+}
+
+.videos{
+    white-space: nowrap;
+    width: calc(100% + 15px);
+    display: block;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+.videos ul{
+    list-style-type: none;
+}
+
+.videos ul li {
+    display: inline-block;
+    width: 75%;
+    padding: 5px;
+}
+
+.videos ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos ul li img{
+    width: 100%;
+    height: auto;
+}
+
+.playbutton{
+    z-index: 1;
+    display: block;
+    position: absolute;
+
+}
+
+.play{
+    border: solid 3px #fff;
+    height: 64px;
+    width: 64px;
+    z-index: 1;
+    border-radius: 50%;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.play span{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #fff;
+    display: block;
+    margin-left: 2px;
+}
+.play:hover{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8)
+}
+
+
+.boxsub{
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 20px;
+    border-bottom: rgba(255, 255, 255, 0.08) solid 1px;
+    border-right: rgba(255, 255, 255, 0.08) solid 1px ;
+    border-left: rgba(0, 0, 0, 0.5) solid 1px ;
+    border-top: rgba(0, 0, 0, 0.5) solid 1px ;
+    margin-top: 30px ;
+    padding: 20px;
+    text-align: center;
+}
+
+.sub{
+    display: block;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+aside img{
+    margin-bottom: 20px;
+}
+.price{
+    display: block;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.textprice{
+    display: block;
+    color: #fff;
+}
+
+footer{
+    background: #062149;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px ;
+    
+}
+
+footer span{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 300;
+}
+#twittericon{
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 5px;
+    text-decoration: none;
+}
+#igicon{
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 5px;
+    text-decoration: none;
+}
+#ttkicon{
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 5px;
+    text-decoration: none;
+}
+#faceicon{
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 5px;
+    text-decoration: none;
 }
