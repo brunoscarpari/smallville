@@ -84,6 +84,11 @@ nav ul li{
     padding: 8px;
 
 }
+nav ul li a{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
 
 nav ul li:nth-last-child(1){
     border-bottom: none;
@@ -93,7 +98,9 @@ nav ul li:nth-last-child(1){
    height: auto; 
    
 }
-
+.central{
+    height: 100%;
+}
 .title{
     display: flex;
     height: 100%;
@@ -109,30 +116,28 @@ h1{
 }
 
 .titlebuttons{
+    font-family: 'Anton','Roboto Condensed';
     display: flex;
-
+    font-size: 0.9rem;
+    font-weight: 300;
 }
 
 .button1{
-    font-size: 'Anton','Roboto Condensed';
     text-decoration: none;
     background: #000 ;
     color: #fff;
     border: #000 solid 2px;
     padding: 5px 24px;
     margin: 4px;
-    font-size: 0.9rem;
-    font-weight: 700;
+    
 }
 .button2{
-    font-size: 'Anton','Roboto Condensed';
     text-decoration: none;
     color: #fff;
     border: #fff solid 2px;
     padding: 5px 24px;
     margin: 4px;
-    font-size: 0.9rem;
-    font-weight: 700;
+    
 }
 .gradient{
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1c437e+0,1c437e+100&0+0,1+90 */
@@ -173,7 +178,7 @@ article p{
     width: calc(100% + 15px);
     display: block;
     overflow-y: auto;
-    margin-bottom: 15px;
+   
 }
 
 .videos ul{

@@ -1,0 +1,71 @@
+@media screen and (min-width: 500px){
+    .videos ul li{
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .videos{
+        white-space: normal;
+        width: 100%;
+    }
+    .videos ul li{
+        width: 49%;
+    }
+    h1{
+        font-size: 7.8rem;
+        
+
+    }
+    .titlebuttons{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 700px){
+    nav{
+        height: auto;
+        flex-basis: unset;
+        overflow: unset;
+    }
+    #toggle{
+        display: none;
+    }
+    nav ul li{
+        display: inline-block;
+        border-bottom: none;
+
+    }
+    nav a{
+        padding: 8px 12px;
+    }
+}
+@media screen and (min-width: 800px){
+    .secvideos{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .videosarticle{
+        width: 63%;
+    }
+    .boxsub{
+        width: 40%;
+        height: auto;
+    
+    }
+}
+@media screen and (min-width: 1000px){
+
+    section,  .central{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .central{
+        height: 100%;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}
